@@ -40,7 +40,7 @@ export const ChallengesProvider = ({ children }: ChallengesProviderProps)=> {
     const challenge = challenges[randomChallengeIndex]
 
     new Audio('/notification.mp3').play()
-    
+
     setActiveChallenge(challenge)
 
     if(Notification.permission === 'granted') {
@@ -51,7 +51,7 @@ export const ChallengesProvider = ({ children }: ChallengesProviderProps)=> {
   }
 
   const resetChallenge = () => setActiveChallenge(null)
-
+ 
   const completeChallenge = () => {
     if (!activeChallenge) {
       return;
