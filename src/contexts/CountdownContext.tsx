@@ -18,6 +18,7 @@ interface CountdownContextData {
   isActive: boolean
   startCountdown: () => void
   resetCountdown: () => void
+  setTime: (value: number) => void
 }
 
 let countdownTimeout: NodeJS.Timeout
@@ -64,6 +65,7 @@ export const CountdownProvider = ({ children }: CountdownProviderProps)=> {
         isActive,
         startCountdown,
         resetCountdown,
+        setTime
       }}
     >
       {children}
