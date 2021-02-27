@@ -21,6 +21,23 @@
   text-align: center;
 }
 
+.countdownContainer > div input {
+  display: flex;
+  align-items: center;
+  font-family: 'Rajdhani';
+  font-weight: 600;
+  color: var(--text);
+  font-size: 8.5rem;
+  width: 100%;
+  border: none;
+
+  transition: all 0.2s;
+}
+
+.countdownContainer > div input:focus {
+  color: var(--title);
+}
+
 .countdownContainer > div span:first-child {
   border-right: 1px solid #f0f1f3;
 }
