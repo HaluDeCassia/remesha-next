@@ -10,7 +10,7 @@ Personalize your countdown and then start a cycle. The default values is 25 minu
 
 ![](/docs/demo_edit.gif)
 
-When the cycle is over, you will get an challenge. If completed, win experience point (xp). Up your level to complete challenges.
+When the cycle is over, you will get an challenge. If completed, win experience point (xp). Complete challenges to Up your level.
 
 ![](/docs/demo_levelup.gif)
 
