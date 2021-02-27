@@ -32,4 +32,11 @@ When the cycle is over, you will get an challenge. If completed, win experience 
 
 - `yarn build` or `npm run build`
 
+## To do
+[ ] fix edit countdown bugs
+[ ] add theme options
+[ ] add login feature
+[ ] add ranking feature
+[ ] add share feature
+
 *initially developed on the #nlw4 with :heart:*
